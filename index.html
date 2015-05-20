@@ -28,7 +28,7 @@
 BLUR = false;
  
 PULSATION = true;               // 圆点闪动
-PULSATION_PERIOD = 1000;        // 闪动频率
+PULSATION_PERIOD = 600;        // 闪动频率
 PARTICLE_RADIUS = 3;            // 圆点半径
  
 /* disable blur before using blink */
@@ -232,7 +232,7 @@ window.onload = function () {
     function init() {
         new_positions();
         setInterval(draw, 30);
-        setInterval(new_positions, 3000);
+        setInterval(new_positions, 5000);
     }
  
     init();
